@@ -3,50 +3,76 @@ body {
     font-size: 13px;
 }
 
-.products {
+.products-container {
+    width: 1110px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 0 85px 0 85px ;
     color:#515076;
+    display: flex;
+	flex-wrap: wrap; 
+    gap: 45px; 
+    justify-content: center;
 }
 
 .title {
     font-size: 70px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 78px;
     text-align: center;
     color:#515076;
     margin: 0 0 110px;
 }
 
-.list {
+.products {
     width: 340px;
-    height: 573px;
     padding: 25px;
     border: 1px ;
     box-sizing: border-box;
     background-color: rgba(81, 80, 118, 0.1);
-    margin-bottom: 43px;
 }
 
 .images {
-    margin-bottom: 25px;
+    margin: 0 0 25px;
 }
 
-.main {
+.headline {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #A5A3B9;
+}
+
+.headline_h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #515076;
+    margin: 5px 0 5px 0 ;
+}
+
+.compound {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #515076;
+}
+
+.cmpd-ul {
+    margin: 0 0 25px 0;
+}
+
+.price {
     font-size: 20px;
     line-height: 24px;
 }
 
-.price {
+.price_b {
     font-weight: 700;
 }
 
-.buy {
+.price_span {
     font-weight: 400;
+    margin: 0 0 0 161px;
+    padding-bottom: 25px;
 }
-
-.slog {
-    color: #A5A3B9;
-}
-
