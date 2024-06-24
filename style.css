@@ -7,8 +7,8 @@ body {
     width: 1110px;
     list-style-type: none;
     margin: auto;
-    padding: 0 85px 0 85px ;
-    color:#515076;
+    padding: 0 85px 0 85px;
+    color: #515076;
     display: flex;
 	flex-wrap: wrap; 
     gap: 45px; 
@@ -20,8 +20,8 @@ body {
     font-weight: 400;
     line-height: 78px;
     text-align: center;
-    color:#515076;
-    margin: 0 0 110px;
+    color: #515076;
+    margin: 220px 0 110px;
 }
 
 .products {
@@ -48,7 +48,7 @@ body {
     font-weight: 700;
     line-height: 27px;
     color: #515076;
-    margin: 5px 0 5px 0 ;
+    margin: 5px 0 5px 0;
 }
 
 .compound {
@@ -59,6 +59,7 @@ body {
 }
 
 .cmpd-ul {
+    padding-left: 25px;
     margin: 0 0 25px 0;
 }
 
