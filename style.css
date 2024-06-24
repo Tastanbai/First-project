@@ -13,6 +13,7 @@ body {
 	flex-wrap: wrap; 
     gap: 45px; 
     justify-content: center;
+    margin-bottom: 116px;
 }
 
 .title {
@@ -66,14 +67,7 @@ body {
 .price {
     font-size: 20px;
     line-height: 24px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.price_b {
-    font-weight: 700;
-}
-
-.price_span {
-    font-weight: 400;
-    margin: 0 0 0 161px;
-    padding-bottom: 25px;
-}
