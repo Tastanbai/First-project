@@ -1,0 +1,20 @@
+.products-container {
+    width: 1110px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 85px;
+    color: #515076;
+    display: flex;
+	flex-wrap: wrap; 
+    gap: 45px; 
+    justify-content: center;
+    margin-bottom: 116px;
+}
+
+.products {
+    width: 340px;
+    padding: 25px;
+    border: 1px ;
+    box-sizing: border-box;
+    background-color: rgba(81, 80, 118, 0.1);
+}
