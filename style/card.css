@@ -30,3 +30,6 @@
     justify-content: space-between;
 }
 
+.card__image {
+    margin-bottom: 25px;
+}
