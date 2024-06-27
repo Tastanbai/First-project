@@ -1,3 +1,8 @@
+.card {
+    color: #515076;
+    padding: 25px;
+}
+
 .card__category {
     font-size: 12px;
     font-weight: 400;
@@ -9,23 +14,13 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 27px;
-    color: #515076;
-    margin: 5px 0 5px 0;
+    margin: 5px 0;
 }
 
 .card__description {
     font-weight: 400;
     font-size: 13px;
     line-height: 18px;
-    color: #515076;
-}
-
-.card__compound {
-    margin: 0 0 25px 0;
-}
-
-.compound__list {
-    padding-left: 25px;
 }
 
 .card__price {
@@ -35,7 +30,3 @@
     justify-content: space-between;
 }
 
-.card__image {
-    display: block;
-    margin:  0 0  25px;
-}
