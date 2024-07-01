@@ -1,7 +1,11 @@
 .compound {
-    margin-bottom: 25px;
+    color: #515076;
 }
 
+.compound__name {
+    margin-bottom: 5px;
+}
 .compound__list {
+    margin-bottom: 25px;
     padding-left: 25px;
 }

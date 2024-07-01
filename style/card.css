@@ -1,6 +1,10 @@
 .card {
     color: #515076;
     padding: 25px;
+    border: 1px ;
+    box-sizing: border-box;
+    background-color: rgba(81, 80, 118, 0.1);
+    width: 100%;
 }
 
 .card__category {
@@ -8,19 +12,21 @@
     font-weight: 400;
     line-height: 24px;
     color: #A5A3B9;
+    margin-bottom: 5px;
 }
 
 .card__name {
     font-size: 20px;
     font-weight: 700;
     line-height: 27px;
-    margin: 5px 0;
+    margin-bottom: 5px;
 }
 
 .card__description {
     font-weight: 400;
     font-size: 13px;
     line-height: 18px;
+    margin-bottom: 15px;
 }
 
 .card__price {
@@ -32,4 +38,8 @@
 
 .card__image {
     margin-bottom: 25px;
+}
+
+.card__description p:first-child {
+    margin-top: 0;
 }
