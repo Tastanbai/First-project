@@ -5,7 +5,17 @@
 .compound__name {
     margin-bottom: 5px;
 }
-.compound__list {
+
+.compound__list li {
+    margin-bottom: 5px;
+    margin-left: 17px;
+}
+
+.compound__list li:last-child {
+    margin-bottom: 0px;
+}
+
+.card__compound {
     margin-bottom: 25px;
-    padding-left: 25px;
+    flex: 1 1 auto;
 }
